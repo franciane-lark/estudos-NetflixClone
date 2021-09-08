@@ -1,5 +1,5 @@
-const API_KEY = 'tt3896198&apikey=4ab221b7'
-const API_BASE = 'http://www.omdbapi.com/3'
+const API_KEY = 'tt3896198&apikey=4ab221b7';
+const API_BASE = 'http://www.omdbapi.com/3';
 
 /*
 - originais da netflix

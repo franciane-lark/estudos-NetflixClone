@@ -1,3 +1,10 @@
+/*
+        - Header
+        - Destaque
+        - Lista
+        - Rodapé basicão
+        */
+
 import React, { useEffect,  useState } from  'react';
 import Omdb from './Omdb';
 export default () => {
@@ -15,8 +22,15 @@ export default () => {
     }, []);
 
     return (
-      <div>
-        Olá mundo!
+      <div className="page">
+        <section className="lists">
+            {movielist.map((item,key) => (
+            <div>
+              {item.title}
+            
+            </div>
+            ))}
+        </section>
       </div>
     );
   }
